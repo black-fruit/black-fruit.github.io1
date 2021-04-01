@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://black-fruit.github.io/2021/04/01/Gitalk-Starter/</loc>
+    <lastmod>2021-04-01</lastmod>
+  </url>
+  <url>
     <loc>http://black-fruit.github.io/2021/02/28/BFHUI%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/</loc>
     <lastmod>2021-03-28</lastmod>
   </url>
