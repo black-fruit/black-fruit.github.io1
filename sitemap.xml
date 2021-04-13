@@ -2,16 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://black-fruit.github.io/links/index.html</loc>
+    <loc>http://black-fruit.github.io/2021/04/13/20210413riji/</loc>
     
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
     
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/2021/03/29/comment-block/</loc>
     
-    <lastmod>2021-04-06</lastmod>
+    <lastmod>2021-04-13</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://black-fruit.github.io/links/index.html</loc>
+    
+    <lastmod>2021-04-13</lastmod>
     
   </url>
   
@@ -81,85 +88,99 @@
 
   <url>
     <loc>http://black-fruit.github.io/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
 
   
   <url>
+    <loc>http://black-fruit.github.io/tags/shuoshuo/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://black-fruit.github.io/tags/Day-Note/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://black-fruit.github.io/tags/Gitalk/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/tags/Gitment/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/tags/OI/</loc>
-    <lastmod>2021-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://black-fruit.github.io/tags/Theme/</loc>
-    <lastmod>2021-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://black-fruit.github.io/tags/Hexo/</loc>
-    <lastmod>2021-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://black-fruit.github.io/tags/Wordpress/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/tags/Kali-Linux/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://black-fruit.github.io/tags/Theme/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://black-fruit.github.io/tags/Hexo/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://black-fruit.github.io/tags/Wordpress/</loc>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/tags/OpenCore/</loc>
-    <lastmod>2021-04-07</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://black-fruit.github.io/tags/Hexo-Github-Pages-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/tags/%E6%A8%A1%E7%89%88/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/tags/C/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://black-fruit.github.io/tags/Hexo-Github-Pages-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -167,22 +188,36 @@
 
   
   <url>
-    <loc>http://black-fruit.github.io/categories/Theme/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <loc>http://black-fruit.github.io/categories/shuoshuo/</loc>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/categories/Kali/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://black-fruit.github.io/categories/shuoshuo/Day-Note/</loc>
+    <lastmod>2021-04-13</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://black-fruit.github.io/categories/Theme/</loc>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>http://black-fruit.github.io/categories/OpenCore/</loc>
-    <lastmod>2021-04-07</lastmod>
+    <lastmod>2021-04-13</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
