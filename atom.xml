@@ -3,11 +3,11 @@
   <title>BFH&#39;s Blog</title>
   
   
-  <link href="https://bfhui.top/atom.xml" rel="self"/>
+  <link href="https://blog.bfhui.top/atom.xml" rel="self"/>
   
-  <link href="https://bfhui.top/"/>
+  <link href="https://blog.bfhui.top/"/>
   <updated>2021-04-13T11:31:39.471Z</updated>
-  <id>https://bfhui.top/</id>
+  <id>https://blog.bfhui.top/</id>
   
   <author>
     <name>John Doe</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>2021/04/13那些事</title>
-    <link href="https://bfhui.top/2021/04/13/20210413riji/"/>
-    <id>https://bfhui.top/2021/04/13/20210413riji/</id>
+    <link href="https://blog.bfhui.top/2021/04/13/20210413riji/"/>
+    <id>https://blog.bfhui.top/2021/04/13/20210413riji/</id>
     <published>2021-04-13T10:47:06.000Z</published>
     <updated>2021-04-13T11:31:39.471Z</updated>
     
@@ -33,21 +33,21 @@
     
     
     
-    <category term="shuoshuo" scheme="https://bfhui.top/categories/shuoshuo/"/>
+    <category term="shuoshuo" scheme="https://blog.bfhui.top/categories/shuoshuo/"/>
     
-    <category term="Day Note" scheme="https://bfhui.top/categories/shuoshuo/Day-Note/"/>
+    <category term="Day Note" scheme="https://blog.bfhui.top/categories/shuoshuo/Day-Note/"/>
     
     
-    <category term="shuoshuo" scheme="https://bfhui.top/tags/shuoshuo/"/>
+    <category term="shuoshuo" scheme="https://blog.bfhui.top/tags/shuoshuo/"/>
     
-    <category term="Day Note" scheme="https://bfhui.top/tags/Day-Note/"/>
+    <category term="Day Note" scheme="https://blog.bfhui.top/tags/Day-Note/"/>
     
   </entry>
   
   <entry>
     <title>Gitalk或Gitment自动初始化</title>
-    <link href="https://bfhui.top/2021/04/01/Gitalk-Starter/"/>
-    <id>https://bfhui.top/2021/04/01/Gitalk-Starter/</id>
+    <link href="https://blog.bfhui.top/2021/04/01/Gitalk-Starter/"/>
+    <id>https://blog.bfhui.top/2021/04/01/Gitalk-Starter/</id>
     <published>2021-04-01T05:22:38.000Z</published>
     <updated>2021-04-01T05:42:32.893Z</updated>
     
@@ -63,18 +63,18 @@
     
     
     
-    <category term="Gitalk" scheme="https://bfhui.top/tags/Gitalk/"/>
+    <category term="Gitalk" scheme="https://blog.bfhui.top/tags/Gitalk/"/>
     
-    <category term="Gitment" scheme="https://bfhui.top/tags/Gitment/"/>
+    <category term="Gitment" scheme="https://blog.bfhui.top/tags/Gitment/"/>
     
-    <category term="OI" scheme="https://bfhui.top/tags/OI/"/>
+    <category term="OI" scheme="https://blog.bfhui.top/tags/OI/"/>
     
   </entry>
   
   <entry>
     <title>留言板</title>
-    <link href="https://bfhui.top/2021/03/29/comment-block/"/>
-    <id>https://bfhui.top/2021/03/29/comment-block/</id>
+    <link href="https://blog.bfhui.top/2021/03/29/comment-block/"/>
+    <id>https://blog.bfhui.top/2021/03/29/comment-block/</id>
     <published>2021-03-29T11:11:58.000Z</published>
     <updated>2021-04-13T10:46:12.546Z</updated>
     
@@ -94,8 +94,8 @@
   
   <entry>
     <title>如何使用KaliLinux渗透Windows电脑#2.制作钓鱼站点</title>
-    <link href="https://bfhui.top/2021/03/18/kali-msf-2/"/>
-    <id>https://bfhui.top/2021/03/18/kali-msf-2/</id>
+    <link href="https://blog.bfhui.top/2021/03/18/kali-msf-2/"/>
+    <id>https://blog.bfhui.top/2021/03/18/kali-msf-2/</id>
     <published>2021-03-18T04:23:05.000Z</published>
     <updated>2021-03-28T06:05:58.910Z</updated>
     
@@ -112,17 +112,17 @@
     
     
     
-    <category term="Kali" scheme="https://bfhui.top/categories/Kali/"/>
+    <category term="Kali" scheme="https://blog.bfhui.top/categories/Kali/"/>
     
     
-    <category term="Kali Linux" scheme="https://bfhui.top/tags/Kali-Linux/"/>
+    <category term="Kali Linux" scheme="https://blog.bfhui.top/tags/Kali-Linux/"/>
     
   </entry>
   
   <entry>
     <title>【禁止转载】BFHUI-一个好看的Hexo/WordPress主题</title>
-    <link href="https://bfhui.top/2021/02/28/bfhui-theme/"/>
-    <id>https://bfhui.top/2021/02/28/bfhui-theme/</id>
+    <link href="https://blog.bfhui.top/2021/02/28/bfhui-theme/"/>
+    <id>https://blog.bfhui.top/2021/02/28/bfhui-theme/</id>
     <published>2021-02-28T11:22:08.000Z</published>
     <updated>2021-03-28T07:53:45.509Z</updated>
     
@@ -138,21 +138,21 @@
     
     
     
-    <category term="Theme" scheme="https://bfhui.top/categories/Theme/"/>
+    <category term="Theme" scheme="https://blog.bfhui.top/categories/Theme/"/>
     
     
-    <category term="Theme" scheme="https://bfhui.top/tags/Theme/"/>
+    <category term="Theme" scheme="https://blog.bfhui.top/tags/Theme/"/>
     
-    <category term="Hexo" scheme="https://bfhui.top/tags/Hexo/"/>
+    <category term="Hexo" scheme="https://blog.bfhui.top/tags/Hexo/"/>
     
-    <category term="Wordpress" scheme="https://bfhui.top/tags/Wordpress/"/>
+    <category term="Wordpress" scheme="https://blog.bfhui.top/tags/Wordpress/"/>
     
   </entry>
   
   <entry>
     <title>【本站首发】OpenCore0.6.6第一个本站发布的版本！</title>
-    <link href="https://bfhui.top/2021/02/26/opencore-0.6.6/"/>
-    <id>https://bfhui.top/2021/02/26/opencore-0.6.6/</id>
+    <link href="https://blog.bfhui.top/2021/02/26/opencore-0.6.6/"/>
+    <id>https://blog.bfhui.top/2021/02/26/opencore-0.6.6/</id>
     <published>2021-02-26T11:04:04.000Z</published>
     <updated>2021-03-02T11:34:48.161Z</updated>
     
@@ -168,17 +168,17 @@
     
     
     
-    <category term="OpenCore" scheme="https://bfhui.top/categories/OpenCore/"/>
+    <category term="OpenCore" scheme="https://blog.bfhui.top/categories/OpenCore/"/>
     
     
-    <category term="OpenCore" scheme="https://bfhui.top/tags/OpenCore/"/>
+    <category term="OpenCore" scheme="https://blog.bfhui.top/tags/OpenCore/"/>
     
   </entry>
   
   <entry>
     <title>如何使用KaliLinux渗透Windows电脑#1.msf生成木马渗透篇</title>
-    <link href="https://bfhui.top/2021/02/18/kali-msf-1/"/>
-    <id>https://bfhui.top/2021/02/18/kali-msf-1/</id>
+    <link href="https://blog.bfhui.top/2021/02/18/kali-msf-1/"/>
+    <id>https://blog.bfhui.top/2021/02/18/kali-msf-1/</id>
     <published>2021-02-18T09:43:38.000Z</published>
     <updated>2021-03-20T13:51:01.139Z</updated>
     
@@ -196,17 +196,17 @@
     
     
     
-    <category term="Kali" scheme="https://bfhui.top/categories/Kali/"/>
+    <category term="Kali" scheme="https://blog.bfhui.top/categories/Kali/"/>
     
     
-    <category term="Kali Linux" scheme="https://bfhui.top/tags/Kali-Linux/"/>
+    <category term="Kali Linux" scheme="https://blog.bfhui.top/tags/Kali-Linux/"/>
     
   </entry>
   
   <entry>
     <title>我的模板</title>
-    <link href="https://bfhui.top/2021/02/15/%E6%88%91%E7%9A%84C-%E6%A8%A1%E6%9D%BF/"/>
-    <id>https://bfhui.top/2021/02/15/%E6%88%91%E7%9A%84C-%E6%A8%A1%E6%9D%BF/</id>
+    <link href="https://blog.bfhui.top/2021/02/15/%E6%88%91%E7%9A%84C-%E6%A8%A1%E6%9D%BF/"/>
+    <id>https://blog.bfhui.top/2021/02/15/%E6%88%91%E7%9A%84C-%E6%A8%A1%E6%9D%BF/</id>
     <published>2021-02-15T11:18:23.000Z</published>
     <updated>2021-03-27T13:09:26.465Z</updated>
     
@@ -227,16 +227,16 @@ int main()&amp;#123;
     
     
     
-    <category term="模版" scheme="https://bfhui.top/tags/%E6%A8%A1%E7%89%88/"/>
+    <category term="模版" scheme="https://blog.bfhui.top/tags/%E6%A8%A1%E7%89%88/"/>
     
-    <category term="C++" scheme="https://bfhui.top/tags/C/"/>
+    <category term="C++" scheme="https://blog.bfhui.top/tags/C/"/>
     
   </entry>
   
   <entry>
     <title>本Github博客再次更新</title>
-    <link href="https://bfhui.top/2021/02/11/%E3%80%90%E7%BD%AE%E9%A1%B6%E3%80%91%E6%9C%ACGithub%E5%8D%9A%E5%AE%A2%E5%86%8D%E6%AC%A1%E6%9B%B4%E6%96%B0/"/>
-    <id>https://bfhui.top/2021/02/11/%E3%80%90%E7%BD%AE%E9%A1%B6%E3%80%91%E6%9C%ACGithub%E5%8D%9A%E5%AE%A2%E5%86%8D%E6%AC%A1%E6%9B%B4%E6%96%B0/</id>
+    <link href="https://blog.bfhui.top/2021/02/11/%E3%80%90%E7%BD%AE%E9%A1%B6%E3%80%91%E6%9C%ACGithub%E5%8D%9A%E5%AE%A2%E5%86%8D%E6%AC%A1%E6%9B%B4%E6%96%B0/"/>
+    <id>https://blog.bfhui.top/2021/02/11/%E3%80%90%E7%BD%AE%E9%A1%B6%E3%80%91%E6%9C%ACGithub%E5%8D%9A%E5%AE%A2%E5%86%8D%E6%AC%A1%E6%9B%B4%E6%96%B0/</id>
     <published>2021-02-11T04:59:38.000Z</published>
     <updated>2021-03-04T10:10:18.120Z</updated>
     
@@ -255,7 +255,7 @@ int main()&amp;#123;
     
     
     
-    <category term="Hexo Github Pages 博客更新" scheme="https://bfhui.top/tags/Hexo-Github-Pages-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
+    <category term="Hexo Github Pages 博客更新" scheme="https://blog.bfhui.top/tags/Hexo-Github-Pages-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/"/>
     
   </entry>
   
