@@ -4,7 +4,7 @@
   <url>
     <loc>https://blog.bfhui.top/links/index.html</loc>
     
-    <lastmod>2021-04-17</lastmod>
+    <lastmod>2021-04-18</lastmod>
     
   </url>
   
@@ -109,27 +109,6 @@
   </url>
   
   <url>
-    <loc>https://blog.bfhui.top/tags/Gitalk/</loc>
-    <lastmod>2021-04-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bfhui.top/tags/Gitment/</loc>
-    <lastmod>2021-04-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bfhui.top/tags/OI/</loc>
-    <lastmod>2021-04-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://blog.bfhui.top/tags/Theme/</loc>
     <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
@@ -151,6 +130,27 @@
   </url>
   
   <url>
+    <loc>https://blog.bfhui.top/tags/Gitalk/</loc>
+    <lastmod>2021-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bfhui.top/tags/Gitment/</loc>
+    <lastmod>2021-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.bfhui.top/tags/OI/</loc>
+    <lastmod>2021-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.bfhui.top/tags/Kali-Linux/</loc>
     <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
@@ -165,6 +165,13 @@
   </url>
   
   <url>
+    <loc>https://blog.bfhui.top/tags/Hexo-Github-Pages-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
+    <lastmod>2021-04-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://blog.bfhui.top/tags/%E6%A8%A1%E7%89%88/</loc>
     <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
@@ -173,13 +180,6 @@
   
   <url>
     <loc>https://blog.bfhui.top/tags/C/</loc>
-    <lastmod>2021-04-18</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://blog.bfhui.top/tags/Hexo-Github-Pages-%E5%8D%9A%E5%AE%A2%E6%9B%B4%E6%96%B0/</loc>
     <lastmod>2021-04-18</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
