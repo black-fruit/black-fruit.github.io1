@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://blog.bfhui.top/2021/04/13/20210413riji/</loc>
-    <lastmod>2021-04-13</lastmod>
+    <loc>https://blog.bfhui.top/2021/02/28/bfhui-theme/</loc>
+    <lastmod>2021-04-18</lastmod>
   </url>
   <url>
-    <loc>https://blog.bfhui.top/2021/03/29/comment-block/</loc>
+    <loc>https://blog.bfhui.top/2021/04/13/20210413riji/</loc>
     <lastmod>2021-04-13</lastmod>
   </url>
   <url>
     <loc>https://blog.bfhui.top/2021/04/01/Gitalk-Starter/</loc>
     <lastmod>2021-04-01</lastmod>
-  </url>
-  <url>
-    <loc>https://blog.bfhui.top/2021/02/28/bfhui-theme/</loc>
-    <lastmod>2021-03-28</lastmod>
   </url>
   <url>
     <loc>https://blog.bfhui.top/2021/03/18/kali-msf-2/</loc>
