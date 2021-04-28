@@ -828,7 +828,7 @@ OpenCore是CloverEFI或Chameleon的另一种引导加载程序。 它不仅适�
 								var diffHours = Math.floor((diff-(diffYears*365+diffDays)*days)/hours);
 								var diffMinutes = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours)/minutes);
 								var diffSeconds = Math.floor((diff-(diffYears*365+diffDays)*days-diffHours*hours-diffMinutes*minutes)/seconds);
-								document.getElementById("sitetime").innerHTML="本博客已在风雨中度过了"+diffYears+" 年 "+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
+								document.getElementById("sitetime").innerHTML="已在风雨中度过"/*+diffYears+" 年 "*/+diffDays+" 天 "+diffHours+" 小时 "+diffMinutes+" 分钟 "+diffSeconds+" 秒";
 							}
 							siteTime();
 						</script>
