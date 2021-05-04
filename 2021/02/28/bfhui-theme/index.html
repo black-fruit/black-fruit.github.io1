@@ -17,7 +17,7 @@
 <meta property="og:locale" content="ja_JP">
 <meta property="og:image" content="https://blog.bfhui.top/2021/02/28/bfhui-theme/themefm.png">
 <meta property="article:published_time" content="2021-02-28T11:22:08.000Z">
-<meta property="article:modified_time" content="2021-04-18T10:29:21.540Z">
+<meta property="article:modified_time" content="2021-05-04T11:04:28.572Z">
 <meta property="article:author" content="John Doe">
 <meta property="article:tag" content="Theme">
 <meta property="article:tag" content="Hexo">
@@ -47,6 +47,9 @@
 <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css">
 
 	
+<link rel="stylesheet" href="//gist.githubusercontent.com/leompeters/a209c5b785866b20f938/raw/3f946189ccff9da3eb566454805162d64775735f/disqus.css">
+
+	
 <script src="/assets/argon_js_merged.js"></script>
 
 	
@@ -57,6 +60,9 @@
 
 	
 <script src="//cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js"></script>
+
+	
+<script src="//cdn.jsdelivr.net/npm/disqusjs@1.3.0/dist/disqus.min.js"></script>
 
 
 	<script>
@@ -743,7 +749,7 @@
 						
 						<div class="post-meta-detail post-meta-detail-time">
 							<i class="fa fa-clock-o" aria-hidden="true"></i>
-							<time title="发布于 2021-2-28 19:22:08 | 编辑于 2021-4-18 18:29:21">2021-2-28 19:22
+							<time title="发布于 2021-2-28 19:22:08 | 编辑于 2021-5-4 19:04:28">2021-2-28 19:22
 							</time>
 						</div>
 					
@@ -807,7 +813,7 @@
 
 
 
-<center><p class="has-text-align-center"><a href="https://github.com/black-fruit/theme-Hexo-BFHUI" target="_blank" rel="noreferrer noopener"><i class="fa fa-github" aria-hidden="true"></i> Github – BFHUI</a> | <a href="https://bfhui.gitbook.io/bfhui-theme-dome//" target="_blank" rel="noreferrer noopener"><i class="fa fa fa-file-text-o" aria-hidden="true"></i> 文档</a> | <a href="https://github.com/black-fruit/WordPress-theme-BFHUI" target="_blank" rel="noreferrer noopener">Wordpress 移植版</a></p></center>
+<center><p class="has-text-align-center"><a href="https://github.com/black-fruit/theme-Hexo-BFHUI" target="_blank" rel="noreferrer noopener"><i class="fa fa-github" aria-hidden="true"></i> Github – BFHUI</a> | <a href="https://does.bfhui.top/" target="_blank" rel="noreferrer noopener"><i class="fa fa fa-file-text-o" aria-hidden="true"></i> 文档</a> | <a href="https://github.com/black-fruit/WordPress-theme-BFHUI" target="_blank" rel="noreferrer noopener">Wordpress 移植版</a></p></center>
 
 
 
@@ -994,6 +1000,19 @@
 		distractionFreeMode: false
 	})
 	gitalk.render('gitalk-container');
+</script>
+
+</div>
+
+
+<div id="post_comment" class="card shadow-sm">
+	<div id="disqus-container"></div>
+<script type="text/javascript">
+	var disqus = new DISQUS({
+		shorname: 'bfh01',
+		disqus-comment-count: '//bfh01.disqus.com/count.js'
+	})
+	disqus.render('disqus-container');
 </script>
 
 </div>
